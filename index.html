@@ -245,7 +245,8 @@
         // Simple download button functionality
         document.getElementById('downloadBtn').addEventListener('click', function(e) {
             e.preventDefault();
-            alert('In a real implementation, this would download the application form. For this demo, no file is actually downloaded.');
+            window.location.href = 'application-form.docx';
+
             // In a real implementation, you would link to the actual PDF file:
             // window.location.href = 'path/to/application-form.pdf';
         });
